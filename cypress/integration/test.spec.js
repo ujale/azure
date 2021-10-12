@@ -5,6 +5,6 @@ describe ('Google search page', function () {
         cy.visit('https://www.google.com/', { retryOnNetworkFailure: true });
         cy.wait(3000);
         cy.get('.lnXdpd').should('be.visible');
-        cy.get('.gLFyf').type('cypress.io{enter}');
+        cy.get('.gLFyf').type('Anthony Brown{enter}');
     })
 })
