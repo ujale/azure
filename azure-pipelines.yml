@@ -15,7 +15,7 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: npm install --save-dev cypress
+- script: npm install cypress --save-dev
 
   displayName: 'npm install cypress'
 
