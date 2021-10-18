@@ -19,6 +19,6 @@ steps:
 
   displayName: 'npm install cypress'
 
-- script: npm run test
+- script: run Test
 
   displayName: 'run test'
