@@ -6,5 +6,6 @@ describe ('Google search page', function () {
         cy.wait(3000);
         cy.get('.lnXdpd').should('be.visible');
         cy.get('.gLFyf').type('Anthony Brown{enter}');
+        cy.get('.SDkEP').should('be.visible')
     })
 })
