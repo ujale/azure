@@ -14,7 +14,7 @@ steps:
 
     displayName: 'npm install cypress'
 
-  - script: run Test
+  - script: run AzureTest
 
     displayName: 'run cypress test'
 

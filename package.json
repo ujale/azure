@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Test": "cypress run --browser chrome"
+    "AzureTest": "cypress run --browser chrome"
   },
   "keywords": [
     "Cypress",
